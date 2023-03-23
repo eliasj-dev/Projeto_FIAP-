@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    width: 980px;
+    margin: auto;
+    font-family: arial;
+    margin-top: 20px;
+}
+
+body hr {
+    background-color: #444444;
+    margin-top: 20px;
+    height: 15px;
+}
+
+.nav-1, .nav-2{
+    color: white;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav-1{
+    background-color: #1b8e99;
+    justify-content: flex-end;
+}
+
+.nav-2{
+    background-color: #660000;
+    justify-content: start;
+}
+
+.ul-nav1 li, .ul-nav2 li{
+    display: inline-flex;
+}
+
+li, li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.ul-nav1 li:hover{
+    background-color: #92c9ce;
+    padding: 15px;
+}
+
+.ul-nav2 li a:hover, li:hover{
+    background-color: white;
+    color: #660000;
+    padding: 10px;
+}
+
+.banner{
+    background-image: url(../img/banner.fw.png);
+    width: 980px;
+    height: 352px;
+}
+
+.title {
+    display: flex;
+    color: #660000;
+    text-transform: uppercase;
+    border-bottom: 4px solid;
+    height: 50px;
+    align-items: center;
+    margin-top: 38px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagem-title img {
+    height: 77px;
+    width: 125px;
+    margin-bottom: 20px
+}
+
+#loja-virtual, #servicos {
+    display: flex;
+    font-family: Tahoma;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.produtos, .contente-servicos{
+    display: flex;
+}
+.produto {
+    border: solid 2px #92c9ce;
+    margin-top: 15px;
+}
+
+.produto-B {
+    border: solid 2px #660000;
+    margin-top: 15px;
+    margin: 15px 20px 0 20px;
+}
+
+.produto-B h3 {
+    background-color: #66000054;
+    color: #660000;
+}
+
+.produto-B h3, .produto h3{
+    display: flex;
+    padding: 5px;
+    margin: 2px 4px 40px 4px;
+    justify-content: center;
+}
+
+.produto h3 {
+    background-color: #92c9ced4;
+    color: #108792;
+    
+}
+
+.produto h2, .produto-B h2 {
+    font-size: 30px;
+}
+
+.produto-B p {
+    color: #660000;
+}
+
+.produto-B p, .produto p {
+    margin: 10px;
+    text-align: start;
+    font-size: 14px;
+}
+
+.produto p {
+    color: #108792;
+}
+
+.produto-B .preco{
+    background-color: #660000;
+}
+
+.preco p {
+    color: white;
+}
+
+
+.preco {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 10px 10px;
+    color: white;
+    background-color: #1b8e99;
+}
+
+.preco h2 p{
+    margin: 0;
+}
+
+
+.produto img, .produto-B img {
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px
+}
+
+.img-produto {
+    display: flex;
+    justify-content: center;
+}
+
+.contente-servicos{
+    margin-top: 40px;
+}
+
+#servicos .title{
+    color: #1c8e99;
+}
+
+.servico, #curso {
+    border: solid 2px #660000;
+    border-bottom: 9px solid #660000;
+}
+
+.servico-B {
+    margin: 0 15px 0 15px;
+    border: solid 2px #92c9ce;
+    border-bottom: 9px solid #1b8e99;
+}
+
+.servico img, #curso  img, .servico-B img {
+    width: 100%;
+    height: 150px;
+}
+
+.servico-B h3, .servico h3, #curso h3 {
+    padding: 5px 5px 20px 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.servico p, #curso p, .servico-B p {
+    padding: 0px 10px 20px 10px;
+}
+.servico h3, #curso h3 {
+    color: #660000;
+}
+.servico-B h3 {
+    color: #1b8d99;
+}
+
+.servico p, #curso p {
+    color: #660000;
+}
+
+.servico-B p {
+    color: #1b8d99;
+}
+
+#end, #end .contente-end p, .imagens, .contente-end, footer {
+    display: flex;
+} 
+#end {
+    font-family: Tahoma;
+    font-size: 14px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#end .imagens img {
+    margin-right: 180px;
+}
+
+#end .contente-end p {
+    text-align: center;
+    align-items: center;
+}
+
+#end .contente-end img {
+    height: 30px;
+    margin: 32px 20px;
+}
+.imagens {
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.contente-end {
+    background-color: #1b8e99;
+    color: white;
+    height: 96px;
+}
+
+footer {
+    height: 26px;
+    color: white;
+    background-color: #660000;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.img-bortola{
+    margin-bottom: 167px;
+}
+
